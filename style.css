@@ -1,0 +1,153 @@
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  font-size: 40px;
+  gap: 20px;
+}
+
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-header {
+  height: 60px;
+  background-color: #000;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+
+.box {
+  width: 100vw;
+  height: 50vh;
+  background-color: #f8f8f8;
+  display: flex;
+}
+
+.model-img {
+  height: 100%;
+  drop-shadow: 10px 10px 10px #f8f8f8;
+}
+
+.top-text {
+  margin-left: 10%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bottom-half {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  margin-top: 5%;
+}
+
+.bottom-image {
+  height: 20vh;
+  width: auto;
+  box-shadow: inset 0px 10px 10px #f8f8f8;
+}
+
+.bottom-img {
+  position: relative;
+  text-align: center;
+}
+
+h2 {
+  margin-top: -40px;
+  color: #fff;
+}
+
+@media (max-width: 680px) {
+  .model-img {
+    height: 50%;
+  }
+
+  .bottom-image {
+    height: 10vh;
+  }
+
+  .todo-card {
+    width: 80vw;
+    height: 80vh;
+    background-color: #000;
+  }
+}
+
+h6 {
+  margin-top: -15px;
+}
+
+.todo-card {
+  background-color: #fff;
+  height: 60vh;
+  width: 50vw;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+ol {
+  float: left;
+}
+
+.card-cont {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.acq-card {
+  background-color: #fff;
+  height: 60vh;
+  width: 50vw;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rating-img {
+  height: 20vh;
+  margin-top: -20px;
+}
+
+.form-top {
+  display: grid;
+}
